@@ -1,10 +1,8 @@
 # Privacy Policy for Weilo
 
-**Effective date:** [Month Day, Year]  
-**Developer / Publisher:** [Your Name or Business Name]  
-**Contact email:** [your-email@example.com]  
-**Account deletion page:** [https://yourdomain.com/delete-account]  
-**Website:** [https://yourdomain.com]
+**Effective date:** March 13, 200  
+**Developer / Publisher:** zxyandreay
+**Contact email:** zxyandreay@gmail.com 
 
 This Privacy Policy explains how **Weilo** collects, uses, stores, and protects information when you use the app. The name **Weilo** comes from a combination of the words **“weight”** and **“log.”** Weilo is a simple weight tracking app that allows users to record weight entries, view progress through graphs and statistics, review previous entries on a calendar, sync data across devices using Google Sign-In, and share progress externally using the device’s built-in sharing tools.
 
@@ -100,7 +98,5 @@ We may update this Privacy Policy from time to time. If we make material changes
 
 If you have questions, requests, or concerns about this Privacy Policy or your data, please contact:
 
-**[Your Name or Business Name]**  
-**Email:** [your-email@example.com]  
-**Website:** [https://yourdomain.com]  
-**Account deletion page:** [https://yourdomain.com/delete-account]
+**zxyandreay**  
+**Email:** zxyandreay@gmail.com 
