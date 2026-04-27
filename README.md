@@ -160,5 +160,4 @@ We may update this Privacy Policy from time to time. If we make changes, we will
 
 If you have questions about this Privacy Policy or Weilo, please contact:
 
-**zxyandreay**  
 **Email:** zxyandreay@gmail.com
