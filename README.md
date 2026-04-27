@@ -1,100 +1,166 @@
 # Privacy Policy for Weilo
 
-**Effective date:** March 13, 200  
-**Developer:** zxyandreay
+**Effective Date:** [Month Day, Year]  
+**Last Updated:** [Month Day, Year]  
+**Developer / Publisher:** [Your Name or Business Name]  
+**Contact Email:** [your-email@example.com]  
+**Website (optional):** [https://yourwebsite.com]
 
-This Privacy Policy explains how **Weilo** collects, uses, stores, and protects information when you use the app. The name **Weilo** comes from a combination of the words **“weight”** and **“log.”** Weilo is a simple weight tracking app that allows users to record weight entries, view progress through graphs and statistics, review previous entries on a calendar, sync data across devices using Google Sign-In, and share progress externally using the device’s built-in sharing tools.
+## Introduction
 
-By using Weilo, you agree to the practices described in this Privacy Policy.
+Weilo is a local-first weight tracking app. The name **Weilo** comes from the words **“weight”** and **“log.”** This Privacy Policy explains how Weilo handles information when you use the app.
 
-## 1. Information We Collect
+Weilo is designed to be simple and privacy-friendly. It does not require account creation, sign-in, or cloud sync. Your weight entries and most app data are stored locally on your device.
 
-Weilo may collect and process the following categories of information:
+By using Weilo, you agree to this Privacy Policy.
 
-### Account Information
-When you sign in with Google, Weilo may receive basic account information such as your name, email address, and a unique account identifier needed to authenticate your account and sync your data across devices.
+## Information We Collect
 
-### Weight Tracking Data
-Weilo stores the weight entries you create, including the weight value, date of entry, unit preference such as kilograms or pounds, and related timestamps such as created or updated time.
+Weilo is designed to minimize data collection.
 
-### App Settings and Preferences
-Weilo may store your selected preferences, such as your preferred weight unit and other app-related settings needed for proper functionality.
+### 1. Data Stored Locally on Your Device
 
-### Shared Content Initiated by You
-If you choose to share your progress using the app’s sharing feature, Weilo may generate a progress summary or image containing data you selected for sharing. This content is only shared when you choose to do so.
+Weilo stores the following information locally on your device so the app can function properly:
 
-### Technical and Service Data
-Weilo and its service providers may process limited technical information necessary to operate the app, such as authentication status, sync metadata, device or app version information, crash data, and security-related logs, depending on the services used to run the app.
+- Weight entries you create
+- Entry dates
+- Weight unit preference, such as kilograms or pounds
+- Appearance preference, such as System, Light, or Dark mode
+- Goal preference, such as weight loss or weight gain, if available in the app
+- App settings and local app state
+- Local backup files you choose to export
 
-## 2. How We Use Your Information
+This data is stored on your device and is not uploaded to our servers because Weilo does not use cloud sync or user accounts.
 
-We use information collected through Weilo to provide and operate the app, including authenticating your account, syncing your weight logs across devices, saving your entries, displaying your graphs and statistics, and supporting the sharing feature when you request it.
+### 2. Purchase and Subscription-Related Information
 
-We also use data to maintain app security, prevent misuse, troubleshoot bugs, improve reliability, and comply with legal obligations.
+Weilo offers a one-time purchase called **Weilo Unlimited**. If you purchase Weilo Unlimited, purchase-related information may be processed by the app store platform and related payment infrastructure, such as:
 
-Weilo is designed to focus only on weight tracking. We do not use your data to build unrelated user profiles or to provide unrelated health, fitness, or advertising features.
+- Google Play
+- RevenueCat, if used by the app for purchase management and entitlement handling
 
-## 3. How Your Information Is Shared
+This may include limited information such as:
 
-We do not sell your personal information.
+- Purchase status
+- Product identifier
+- Transaction or subscription metadata relevant to purchase restoration and entitlement access
+- App user identifier or device-linked purchase identifier generated for billing purposes
 
-We may share your information only in the following limited situations:
+Weilo does not collect your payment card details directly. Payments are processed by the app store and its related systems.
 
-### With Service Providers
-We may use third-party services to support authentication, cloud storage, data synchronization, hosting, security, and other technical operations necessary to run Weilo. These providers may process data only on our behalf and only as needed to provide their services.
+### 3. Import and Export Data
 
-### With Sharing Destinations You Choose
-If you use the app’s sharing feature, the content you choose to share may be sent to other apps, social media platforms, messaging services, or contacts selected by you. Once you share content outside Weilo, its handling is governed by the privacy practices of the receiving service.
+If you use the **Export Data** feature, Weilo creates a backup file locally on your device.  
+If you use the **Import Data** feature, Weilo reads a backup file you choose from your device.
 
-### For Legal Reasons
-We may disclose information if required to do so by law, regulation, court order, or valid legal process, or when necessary to protect rights, safety, security, or the integrity of the app.
+These files are handled locally for backup and restore purposes. Weilo does not upload them to our servers.
 
-## 4. Data Storage and Sync
+## Information We Do Not Collect
 
-If you sign in with your Google account, your Weilo data may be stored securely in cloud services associated with the app so your logs remain available across devices where you sign in with the same account.
+Weilo does **not** require:
 
-Some app data may also be cached locally on your device to improve performance and allow a smoother user experience.
+- User account registration
+- Email sign-in
+- Google sign-in
+- Cloud profile setup
 
-## 5. Weight Units and Data Conversion
+Weilo does **not** intentionally collect or store on our servers:
 
-Weilo allows users to choose whether weight is displayed in kilograms or pounds. Changing the preferred unit changes how weight data is displayed throughout the app, including the dashboard, graphs, progress metrics, statistics, history, calendar views, and shareable progress summaries. The app is intended to preserve the real meaning of the data and convert values properly rather than simply changing the label.
+- Your weight logs
+- Your imported or exported backup files
+- Your personal messages or contacts
+- Your exact location
+- Your photos or media, except where you intentionally choose a file for import/export through your device’s file picker
 
-## 6. Data Retention
+Weilo does **not** sell your personal information.
 
-We retain your account information and weight tracking data for as long as your account remains active or as long as needed to provide the app’s services.
+## How We Use Information
 
-If you request deletion of your account or data, we will delete or anonymize your information within a reasonable period, unless we are required or permitted by law to retain certain information for legal, security, fraud prevention, dispute resolution, or compliance purposes.
+We use information only to operate the app and its features. This includes:
 
-## 7. Your Choices and Rights
+- Saving and displaying your weight entries
+- Showing your dashboard, charts, trends, and statistics
+- Applying your preferred unit, appearance mode, and goal setting
+- Enforcing the free-entry limit for free users
+- Unlocking Weilo Unlimited after a valid purchase
+- Restoring purchase access for users who already own Weilo Unlimited
+- Supporting local import and export functionality
+- Fixing bugs and maintaining app stability
 
-You can review and update your weight entries within the app at any time.
+## Local Storage and No Cloud Sync
 
-You may also request deletion of your Weilo account and associated data by using the in-app deletion option, if available, or by visiting our account deletion page at **[https://yourdomain.com/delete-account]** or contacting us at **[your-email@example.com]**.
+Weilo is a **local-first app**. This means:
 
-Depending on your location, you may have rights regarding access to, correction of, deletion of, or restriction of your personal information. To make a request, contact us using the details below.
+- Your weight data is stored on your device
+- Weilo does not provide cloud sync
+- Weilo does not back up your data to our servers
+- If you uninstall the app without exporting your data first, your locally stored data may be lost
 
-## 8. Security
+If you want to keep a backup of your data, you should use the app’s local **Export Data** feature, if available to your account tier.
 
-We take reasonable administrative, technical, and organizational measures to protect your information against unauthorized access, loss, misuse, alteration, or disclosure. However, no method of electronic storage or transmission over the internet is completely secure, and we cannot guarantee absolute security.
+## In-App Purchases
 
-## 9. Children’s Privacy
+Weilo may offer a one-time purchase called **Weilo Unlimited**. This unlock may include features such as:
 
-Weilo is not directed to children under the age of 13, or the minimum age required in the user’s country, unless expressly stated otherwise. We do not knowingly collect personal information from children without appropriate authorization where required by law. If you believe a child has provided personal information to Weilo, please contact us so we can take appropriate action.
+- Unlimited weight entries
+- Export Data for local backup
+- Import Data for local restore
 
-## 10. International Data Transfers
+Purchase processing is handled by the app store and any billing service provider used by the app, such as RevenueCat. Weilo uses purchase status only to determine whether premium features should be unlocked.
 
-Depending on the services used to operate Weilo, your information may be processed or stored in countries other than your own. Where required, we take reasonable steps to ensure appropriate protections are in place for such transfers.
+## Sharing and Third-Party Access
 
-## 11. Third-Party Services
+Weilo does not sell your information and does not share your weight entries with advertisers.
 
-Weilo may rely on third-party services such as Google Sign-In, cloud hosting, database providers, crash reporting, or other technical infrastructure providers. These services may have their own privacy policies and terms, and your use of those services may also be subject to their policies.
+However, limited information may be processed by third parties only when necessary to provide app functionality, such as:
 
-## 12. Changes to This Privacy Policy
+- **Google Play** for app distribution and billing
+- **RevenueCat** for purchase validation, entitlement management, and purchase restoration, if implemented in the app
 
-We may update this Privacy Policy from time to time. If we make material changes, we will update the effective date above and, where appropriate, provide notice within the app or through other reasonable means.
+These third parties operate under their own privacy policies and terms.
 
-## 13. Contact Us
+## Data Retention
 
-If you have questions, requests, or concerns about this Privacy Policy or your data, please contact:
+Because Weilo stores most data locally on your device, retention is generally controlled by you.
 
-**Email:** zxyandreay@gmail.com 
+- Your app data remains on your device until you delete it, uninstall the app, clear app storage, or overwrite it through import/restore
+- Purchase-related records may be retained by the app store or billing service provider according to their own policies
+- If Weilo stores any local purchase cache or entitlement state, it is kept only as needed for app functionality
+
+## Your Choices and Controls
+
+You can control your data in the following ways:
+
+- Add, edit, or delete your weight entries in the app
+- Change your unit and appearance preferences
+- Export your data locally, if that feature is available to your account tier
+- Import previously exported data locally, if that feature is available to your account tier
+- Uninstall the app to remove locally stored app data from your device, subject to device behavior
+
+## Data Security
+
+We take reasonable steps to design Weilo as a privacy-friendly app with minimal data collection. However, no method of storage or transmission is completely secure.
+
+Because your data is primarily stored locally on your device, protecting access to your device is an important part of keeping your data safe.
+
+## Children’s Privacy
+
+Weilo is not directed to children under 13, or the minimum age required by law in your country, unless permitted by applicable law. We do not knowingly collect personal information from children through account creation because Weilo does not use accounts.
+
+If you believe a child has provided personal information to us through another channel, please contact us.
+
+## International Use
+
+If you use Weilo outside the country where it is published, purchase processing and app store services may be handled by providers operating in multiple countries. Their handling of data is governed by their own terms and privacy policies.
+
+## Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. If we make changes, we will update the **Last Updated** date above. Continued use of Weilo after changes become effective means you accept the revised Privacy Policy.
+
+## Contact Us
+
+If you have questions about this Privacy Policy or Weilo, please contact:
+
+**[Your Name or Business Name]**  
+**Email:** [your-email@example.com]  
+**Website:** [https://yourwebsite.com]
