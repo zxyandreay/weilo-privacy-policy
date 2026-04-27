@@ -1,10 +1,9 @@
 # Privacy Policy for Weilo
 
-**Effective Date:** [Month Day, Year]  
-**Last Updated:** [Month Day, Year]  
-**Developer / Publisher:** [Your Name or Business Name]  
-**Contact Email:** [your-email@example.com]  
-**Website (optional):** [https://yourwebsite.com]
+**Effective Date:** April 27, 2026
+**Last Updated:** April 27, 2026  
+**Developer / Publisher:** zxyandreay  
+**Contact Email:** zxyandreay@gmail.com  
 
 ## Introduction
 
@@ -161,6 +160,5 @@ We may update this Privacy Policy from time to time. If we make changes, we will
 
 If you have questions about this Privacy Policy or Weilo, please contact:
 
-**[Your Name or Business Name]**  
-**Email:** [your-email@example.com]  
-**Website:** [https://yourwebsite.com]
+**zxyandreay**  
+**Email:** zxyandreay@gmail.com
