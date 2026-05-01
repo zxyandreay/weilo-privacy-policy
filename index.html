@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for Weilo, a local-first weight tracking app. How Weilo handles your information, local storage, purchases, and your choices.">
+  <title>Privacy Policy | Weilo</title>
+  <style>
+    :root {
+      --brand: #0C9289;
+      --brand-dark: #097a72;
+      --page-bg: #f3faf9;
+      --card-bg: #ffffff;
+      --text: #333333;
+      --text-muted: #5c5c5c;
+      --border: rgba(12, 146, 137, 0.18);
+      --shadow: 0 8px 32px rgba(12, 146, 137, 0.08), 0 2px 8px rgba(0, 0, 0, 0.04);
+      --radius: 12px;
+      --font: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--font);
+      font-size: 17px;
+      line-height: 1.65;
+      color: var(--text);
+      background: var(--page-bg);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    a {
+      color: var(--brand-dark);
+      text-decoration: underline;
+      text-underline-offset: 0.15em;
+      transition: color 0.2s ease, opacity 0.2s ease;
+    }
+
+    a:hover {
+      color: var(--brand);
+    }
+
+    a:focus-visible {
+      outline: 2px solid var(--brand);
+      outline-offset: 2px;
+    }
+
+    .hero-strip {
+      background: linear-gradient(135deg, var(--brand) 0%, #0a7a72 50%, #086b64 100%);
+      color: #fff;
+      padding: 1.25rem 1.25rem 2rem;
+      text-align: center;
+    }
+
+    .hero-strip .app-name {
+      font-size: 0.95rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      opacity: 0.95;
+      margin: 0 0 0.35rem;
+    }
+
+    .hero-strip .page-title {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin: 0 0 1rem;
+      line-height: 1.25;
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem 1.25rem;
+      justify-content: center;
+      font-size: 0.9rem;
+      line-height: 1.5;
+      opacity: 0.96;
+    }
+
+    .hero-meta span {
+      display: inline-block;
+    }
+
+    .hero-strip a {
+      color: #fff;
+      text-decoration: underline;
+      text-underline-offset: 0.2em;
+    }
+
+    .hero-strip a:hover {
+      opacity: 0.9;
+      color: #fff;
+    }
+
+    .shell {
+      flex: 1;
+      width: 100%;
+      max-width: 800px;
+      margin: -1.25rem auto 0;
+      padding: 0 1rem 2.5rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 1.75rem 1.75rem 2.25rem;
+      border: 1px solid var(--border);
+    }
+
+    .badge-row {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 1rem;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--brand-dark);
+      background: rgba(12, 146, 137, 0.12);
+      border: 1px solid var(--border);
+      padding: 0.35rem 0.75rem;
+      border-radius: 999px;
+      letter-spacing: 0.02em;
+    }
+
+    main h1 {
+      font-size: 1.85rem;
+      color: var(--brand);
+      margin: 0 0 1.5rem;
+      line-height: 1.25;
+      font-weight: 700;
+    }
+
+    main section {
+      padding-top: 1.5rem;
+      margin-top: 1.5rem;
+      border-top: 1px solid var(--border);
+    }
+
+    main section:first-of-type {
+      padding-top: 0;
+      margin-top: 0;
+      border-top: none;
+    }
+
+    main h2 {
+      font-size: 1.2rem;
+      color: var(--brand);
+      margin: 0 0 0.85rem;
+      font-weight: 700;
+      line-height: 1.35;
+    }
+
+    main h3 {
+      font-size: 1.05rem;
+      color: var(--brand);
+      margin: 1.25rem 0 0.65rem;
+      font-weight: 600;
+      line-height: 1.4;
+    }
+
+    main p {
+      margin: 0 0 1rem;
+      max-width: 70ch;
+    }
+
+    main ul {
+      margin: 0 0 1rem;
+      padding-left: 1.35rem;
+    }
+
+    main li {
+      margin-bottom: 0.45rem;
+    }
+
+    main li:last-child {
+      margin-bottom: 0;
+    }
+
+    .site-footer {
+      text-align: center;
+      padding: 1.5rem 1rem 2rem;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.6);
+    }
+
+    .site-footer p {
+      margin: 0 0 0.5rem;
+    }
+
+    .site-footer p:last-child {
+      margin-bottom: 0;
+    }
+
+    @media (min-width: 640px) {
+      .hero-strip .page-title {
+        font-size: 2rem;
+      }
+
+      .card {
+        padding: 2rem 2.5rem 2.5rem;
+      }
+
+      main h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero-strip">
+    <p class="app-name">Weilo</p>
+    <p class="page-title">Privacy Policy</p>
+    <div class="hero-meta" role="group" aria-label="Policy metadata">
+      <span><strong>Effective Date:</strong> April 27, 2026</span>
+      <span><strong>Last Updated:</strong> April 27, 2026</span>
+      <span><strong>Contact:</strong> <a href="mailto:zxyandreay@gmail.com">zxyandreay@gmail.com</a></span>
+    </div>
+  </header>
+
+  <div class="shell">
+    <div class="card">
+      <div class="badge-row">
+        <span class="badge" title="Document revision date">Last updated April 27, 2026</span>
+      </div>
+
+      <main>
+        <h1>Privacy Policy</h1>
+
+        <section id="introduction" aria-labelledby="introduction-heading">
+          <h2 id="introduction-heading">Introduction</h2>
+          <p>Weilo is a local-first weight tracking app. The name <strong>Weilo</strong> comes from the words <strong>“weight”</strong> and <strong>“log.”</strong> This Privacy Policy explains how Weilo handles information when you use the app.</p>
+          <p>Weilo is designed to be simple and privacy-friendly. It does not require account creation, sign-in, or cloud sync. Your weight entries and most app data are stored locally on your device.</p>
+          <p>By using Weilo, you agree to this Privacy Policy.</p>
+        </section>
+
+        <section id="information-we-collect" aria-labelledby="information-we-collect-heading">
+          <h2 id="information-we-collect-heading">Information We Collect</h2>
+          <p>Weilo is designed to minimize data collection.</p>
+
+          <h3 id="data-stored-locally">1. Data Stored Locally on Your Device</h3>
+          <p>Weilo stores the following information locally on your device so the app can function properly:</p>
+          <ul>
+            <li>Weight entries you create</li>
+            <li>Entry dates</li>
+            <li>Weight unit preference, such as kilograms or pounds</li>
+            <li>Appearance preference, such as System, Light, or Dark mode</li>
+            <li>Goal preference, such as weight loss or weight gain, if available in the app</li>
+            <li>App settings and local app state</li>
+            <li>Local backup files you choose to export</li>
+          </ul>
+          <p>This data is stored on your device and is not uploaded to our servers because Weilo does not use cloud sync or user accounts.</p>
+
+          <h3 id="purchase-subscription">2. Purchase and Subscription-Related Information</h3>
+          <p>Weilo offers a one-time purchase called <strong>Weilo Unlimited</strong>. If you purchase Weilo Unlimited, purchase-related information may be processed by the app store platform and related payment infrastructure, such as:</p>
+          <ul>
+            <li>Google Play</li>
+            <li>RevenueCat, if used by the app for purchase management and entitlement handling</li>
+          </ul>
+          <p>This may include limited information such as:</p>
+          <ul>
+            <li>Purchase status</li>
+            <li>Product identifier</li>
+            <li>Transaction or subscription metadata relevant to purchase restoration and entitlement access</li>
+            <li>App user identifier or device-linked purchase identifier generated for billing purposes</li>
+          </ul>
+          <p>Weilo does not collect your payment card details directly. Payments are processed by the app store and its related systems.</p>
+
+          <h3 id="import-export">3. Import and Export Data</h3>
+          <p>If you use the <strong>Export Data</strong> feature, Weilo creates a backup file locally on your device.</p>
+          <p>If you use the <strong>Import Data</strong> feature, Weilo reads a backup file you choose from your device.</p>
+          <p>These files are handled locally for backup and restore purposes. Weilo does not upload them to our servers.</p>
+        </section>
+
+        <section id="information-we-do-not-collect" aria-labelledby="information-we-do-not-collect-heading">
+          <h2 id="information-we-do-not-collect-heading">Information We Do Not Collect</h2>
+          <p>Weilo does <strong>not</strong> require:</p>
+          <ul>
+            <li>User account registration</li>
+            <li>Email sign-in</li>
+            <li>Google sign-in</li>
+            <li>Cloud profile setup</li>
+          </ul>
+          <p>Weilo does <strong>not</strong> intentionally collect or store on our servers:</p>
+          <ul>
+            <li>Your weight logs</li>
+            <li>Your imported or exported backup files</li>
+            <li>Your personal messages or contacts</li>
+            <li>Your exact location</li>
+            <li>Your photos or media, except where you intentionally choose a file for import/export through your device’s file picker</li>
+          </ul>
+          <p>Weilo does <strong>not</strong> sell your personal information.</p>
+        </section>
+
+        <section id="how-we-use-information" aria-labelledby="how-we-use-information-heading">
+          <h2 id="how-we-use-information-heading">How We Use Information</h2>
+          <p>We use information only to operate the app and its features. This includes:</p>
+          <ul>
+            <li>Saving and displaying your weight entries</li>
+            <li>Showing your dashboard, charts, trends, and statistics</li>
+            <li>Applying your preferred unit, appearance mode, and goal setting</li>
+            <li>Enforcing the free-entry limit for free users</li>
+            <li>Unlocking Weilo Unlimited after a valid purchase</li>
+            <li>Restoring purchase access for users who already own Weilo Unlimited</li>
+            <li>Supporting local import and export functionality</li>
+            <li>Fixing bugs and maintaining app stability</li>
+          </ul>
+        </section>
+
+        <section id="local-storage" aria-labelledby="local-storage-heading">
+          <h2 id="local-storage-heading">Local Storage and No Cloud Sync</h2>
+          <p>Weilo is a <strong>local-first app</strong>. This means:</p>
+          <ul>
+            <li>Your weight data is stored on your device</li>
+            <li>Weilo does not provide cloud sync</li>
+            <li>Weilo does not back up your data to our servers</li>
+            <li>If you uninstall the app without exporting your data first, your locally stored data may be lost</li>
+          </ul>
+          <p>If you want to keep a backup of your data, you should use the app’s local <strong>Export Data</strong> feature, if available to your account tier.</p>
+        </section>
+
+        <section id="in-app-purchases" aria-labelledby="in-app-purchases-heading">
+          <h2 id="in-app-purchases-heading">In-App Purchases</h2>
+          <p>Weilo may offer a one-time purchase called <strong>Weilo Unlimited</strong>. This unlock may include features such as:</p>
+          <ul>
+            <li>Unlimited weight entries</li>
+            <li>Export Data for local backup</li>
+            <li>Import Data for local restore</li>
+          </ul>
+          <p>Purchase processing is handled by the app store and any billing service provider used by the app, such as RevenueCat. Weilo uses purchase status only to determine whether premium features should be unlocked.</p>
+        </section>
+
+        <section id="sharing" aria-labelledby="sharing-heading">
+          <h2 id="sharing-heading">Sharing and Third-Party Access</h2>
+          <p>Weilo does not sell your information and does not share your weight entries with advertisers.</p>
+          <p>However, limited information may be processed by third parties only when necessary to provide app functionality, such as:</p>
+          <ul>
+            <li><strong>Google Play</strong> for app distribution and billing</li>
+            <li><strong>RevenueCat</strong> for purchase validation, entitlement management, and purchase restoration, if implemented in the app</li>
+          </ul>
+          <p>These third parties operate under their own privacy policies and terms.</p>
+        </section>
+
+        <section id="data-retention" aria-labelledby="data-retention-heading">
+          <h2 id="data-retention-heading">Data Retention</h2>
+          <p>Because Weilo stores most data locally on your device, retention is generally controlled by you.</p>
+          <ul>
+            <li>Your app data remains on your device until you delete it, uninstall the app, clear app storage, or overwrite it through import/restore</li>
+            <li>Purchase-related records may be retained by the app store or billing service provider according to their own policies</li>
+            <li>If Weilo stores any local purchase cache or entitlement state, it is kept only as needed for app functionality</li>
+          </ul>
+        </section>
+
+        <section id="your-choices" aria-labelledby="your-choices-heading">
+          <h2 id="your-choices-heading">Your Choices and Controls</h2>
+          <p>You can control your data in the following ways:</p>
+          <ul>
+            <li>Add, edit, or delete your weight entries in the app</li>
+            <li>Change your unit and appearance preferences</li>
+            <li>Export your data locally, if that feature is available to your account tier</li>
+            <li>Import previously exported data locally, if that feature is available to your account tier</li>
+            <li>Uninstall the app to remove locally stored app data from your device, subject to device behavior</li>
+          </ul>
+        </section>
+
+        <section id="data-security" aria-labelledby="data-security-heading">
+          <h2 id="data-security-heading">Data Security</h2>
+          <p>We take reasonable steps to design Weilo as a privacy-friendly app with minimal data collection. However, no method of storage or transmission is completely secure.</p>
+          <p>Because your data is primarily stored locally on your device, protecting access to your device is an important part of keeping your data safe.</p>
+        </section>
+
+        <section id="childrens-privacy" aria-labelledby="childrens-privacy-heading">
+          <h2 id="childrens-privacy-heading">Children’s Privacy</h2>
+          <p>Weilo is not directed to children under 13, or the minimum age required by law in your country, unless permitted by applicable law. We do not knowingly collect personal information from children through account creation because Weilo does not use accounts.</p>
+          <p>If you believe a child has provided personal information to us through another channel, please contact us.</p>
+        </section>
+
+        <section id="international-use" aria-labelledby="international-use-heading">
+          <h2 id="international-use-heading">International Use</h2>
+          <p>If you use Weilo outside the country where it is published, purchase processing and app store services may be handled by providers operating in multiple countries. Their handling of data is governed by their own terms and privacy policies.</p>
+        </section>
+
+        <section id="changes" aria-labelledby="changes-heading">
+          <h2 id="changes-heading">Changes to This Privacy Policy</h2>
+          <p>We may update this Privacy Policy from time to time. If we make changes, we will update the <strong>Last Updated</strong> date above. Continued use of Weilo after changes become effective means you accept the revised Privacy Policy.</p>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-heading">
+          <h2 id="contact-heading">Contact Us</h2>
+          <p>If you have questions about this Privacy Policy or Weilo, please contact:</p>
+          <p><strong>Email:</strong> <a href="mailto:zxyandreay@gmail.com">zxyandreay@gmail.com</a></p>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>© 2026 Weilo. All rights reserved.</p>
+    <p>Contact: <a href="mailto:zxyandreay@gmail.com">zxyandreay@gmail.com</a></p>
+  </footer>
+</body>
+</html>

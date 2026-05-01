@@ -1,5 +1,7 @@
 # Privacy Policy for Weilo
 
+The formatted privacy policy page for GitHub Pages is published at [https://zxyandreay.github.io/weilo-privacy-policy/](https://zxyandreay.github.io/weilo-privacy-policy/). You can also open [`index.html`](index.html) locally in a browser.
+
 **Effective Date:** April 27, 2026
 **Last Updated:** April 27, 2026  
 **Developer / Publisher:** zxyandreay  
