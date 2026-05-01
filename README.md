@@ -27,7 +27,7 @@ Weilo stores the following information locally on your device so the app can fun
 - Entry dates
 - Weight unit preference, such as kilograms or pounds
 - Appearance preference, such as System, Light, or Dark mode
-- Goal preference, such as weight loss or weight gain, if available in the app
+- Goal preference, such as weight loss or weight gain
 - App settings and local app state
 - Local backup files you choose to export
 
@@ -38,7 +38,7 @@ This data is stored on your device and is not uploaded to our servers because We
 Weilo offers a one-time purchase called **Weilo Unlimited**. If you purchase Weilo Unlimited, purchase-related information may be processed by the app store platform and related payment infrastructure, such as:
 
 - Google Play
-- RevenueCat, if used by the app for purchase management and entitlement handling
+- RevenueCat, for purchase management and entitlement handling
 
 This may include limited information such as:
 
@@ -116,7 +116,7 @@ Weilo does not sell your information and does not share your weight entries with
 However, limited information may be processed by third parties only when necessary to provide app functionality, such as:
 
 - **Google Play** for app distribution and billing
-- **RevenueCat** for purchase validation, entitlement management, and purchase restoration, if implemented in the app
+- **RevenueCat** for purchase validation, entitlement management, and purchase restoration
 
 These third parties operate under their own privacy policies and terms.
 
