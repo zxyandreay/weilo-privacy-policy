@@ -75,20 +75,12 @@
       object-fit: cover;
     }
 
-    .hero-strip .app-name {
-      font-size: 0.95rem;
-      font-weight: 600;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      opacity: 0.95;
-      margin: 0 0 0.35rem;
-    }
-
-    .hero-strip .page-title {
+    .hero-strip h1.page-title {
       font-size: 1.75rem;
       font-weight: 700;
       margin: 0 0 1rem;
       line-height: 1.25;
+      color: inherit;
     }
 
     .hero-meta {
@@ -130,32 +122,6 @@
       box-shadow: var(--shadow);
       padding: 1.75rem 1.75rem 2.25rem;
       border: 1px solid var(--border);
-    }
-
-    .badge-row {
-      display: flex;
-      justify-content: flex-end;
-      margin-bottom: 1rem;
-    }
-
-    .badge {
-      display: inline-block;
-      font-size: 0.8rem;
-      font-weight: 600;
-      color: var(--brand-dark);
-      background: rgba(12, 146, 137, 0.12);
-      border: 1px solid var(--border);
-      padding: 0.35rem 0.75rem;
-      border-radius: 999px;
-      letter-spacing: 0.02em;
-    }
-
-    main h1 {
-      font-size: 1.85rem;
-      color: var(--brand);
-      margin: 0 0 1.5rem;
-      line-height: 1.25;
-      font-weight: 700;
     }
 
     main section {
@@ -214,24 +180,16 @@
     }
 
     .site-footer p {
-      margin: 0 0 0.5rem;
-    }
-
-    .site-footer p:last-child {
-      margin-bottom: 0;
+      margin: 0;
     }
 
     @media (min-width: 640px) {
-      .hero-strip .page-title {
+      .hero-strip h1.page-title {
         font-size: 2rem;
       }
 
       .card {
         padding: 2rem 2.5rem 2.5rem;
-      }
-
-      main h1 {
-        font-size: 2rem;
       }
     }
   </style>
@@ -239,8 +197,7 @@
 <body>
   <header class="hero-strip">
     <img class="app-icon" src="assets/weilo-icon.png" width="88" height="88" alt="Weilo app icon featuring a stylized weighing scale graphic and the text Weilo on a teal background.">
-    <p class="app-name">Weilo</p>
-    <p class="page-title">Privacy Policy</p>
+    <h1 class="page-title">Privacy Policy</h1>
     <div class="hero-meta" role="group" aria-label="Policy metadata">
       <span><strong>Effective Date:</strong> March 13, 2026</span>
       <span><strong>Last Updated:</strong> May 1, 2026</span>
@@ -250,13 +207,7 @@
 
   <div class="shell">
     <div class="card">
-      <div class="badge-row">
-        <span class="badge" title="Document revision date">Last updated May 1, 2026</span>
-      </div>
-
       <main>
-        <h1>Privacy Policy</h1>
-
         <section id="introduction" aria-labelledby="introduction-heading">
           <h2 id="introduction-heading">Introduction</h2>
           <p>Weilo is a local-first weight tracking app. The name <strong>Weilo</strong> comes from the words <strong>“weight”</strong> and <strong>“log.”</strong> This Privacy Policy explains how Weilo handles information when you use the app.</p>
@@ -426,7 +377,6 @@
 
   <footer class="site-footer">
     <p>© 2026 Weilo. All rights reserved.</p>
-    <p>Contact: <a href="mailto:zxyandreay@gmail.com">zxyandreay@gmail.com</a></p>
   </footer>
 </body>
 </html>
