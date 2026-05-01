@@ -1,5 +1,9 @@
 # Privacy Policy for Weilo
 
+<p align="center">
+  <img src="assets/weilo-icon.png" width="120" height="120" alt="Weilo app icon featuring a stylized weighing scale graphic and the text Weilo on a teal background.">
+</p>
+
 The formatted privacy policy page for GitHub Pages is published at [https://zxyandreay.github.io/weilo-privacy-policy/](https://zxyandreay.github.io/weilo-privacy-policy/). You can also open [`index.html`](index.html) locally in a browser.
 
 **Effective Date:** March 13, 2026
