@@ -2,7 +2,7 @@
 
 The formatted privacy policy page for GitHub Pages is published at [https://zxyandreay.github.io/weilo-privacy-policy/](https://zxyandreay.github.io/weilo-privacy-policy/). You can also open [`index.html`](index.html) locally in a browser.
 
-**Effective Date:** April 27, 2026
+**Effective Date:** March 13, 2026
 **Last Updated:** May 1, 2026  
 **Developer / Publisher:** zxyandreay  
 **Contact Email:** zxyandreay@gmail.com  
@@ -27,7 +27,7 @@ Weilo stores the following information locally on your device so the app can fun
 - Entry dates
 - Weight unit preference, such as kilograms or pounds
 - Appearance preference, such as System, Light, or Dark mode
-- Goal preference, such as weight loss or weight gain
+- Goal preference, such as weight loss, weight gain, or maintain weight
 - App settings and local app state
 - Local backup files you choose to export
 
@@ -81,7 +81,7 @@ We use information only to operate the app and its features. This includes:
 
 - Saving and displaying your weight entries
 - Showing your dashboard, charts, trends, and statistics
-- Applying your preferred unit, appearance mode, and goal setting
+- Applying your preferred unit, appearance mode, and goal preference (such as weight loss, weight gain, or maintain weight)
 - Enforcing the free-entry limit for free users
 - Unlocking Weilo Unlimited after a valid purchase
 - Restoring purchase access for users who already own Weilo Unlimited
